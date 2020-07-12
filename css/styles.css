@@ -1,26 +1,28 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(241, 243, 242);
+    
     position: relative;
     margin:  auto;
 }
 header {
     height:50px;
-    background-color: cadetblue;
+    background-color: rgb(18, 228, 228);
     margin-bottom: 25px;
+}
+body {
+    background-color: rgb(244, 249, 250);
 }
 input {
    display: block;
    margin-left: auto;
-   width: 500px;
+   width: 55%;
    height: 35px;
    border-color: lightgrey;
    border-radius: 5px ;
    padding-left: 15px;
 }
-img {
+.thumb {
     margin: 20px;
-  
 }
 .gallery {
     max-width: 1000px;
