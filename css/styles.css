@@ -5,12 +5,19 @@
     margin:  auto;
 }
 header {
-    height:50px;
-    background-color: aqua;
+	text-align: center;
+    height: 175px;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     margin-bottom: 25px;
 }
+header p {
+	color: black;
+	padding: 10px;
+}
 body {
-    background-color: black;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 input {
    display: block;
@@ -21,8 +28,10 @@ input {
    border-radius: 5px ;
    padding-left: 15px;
 }
+
 .thumb {
     margin: 20px;
+	border: 2px solid grey;
 }
 .gallery {
     max-width: 1000px;
