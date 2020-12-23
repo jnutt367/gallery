@@ -6,13 +6,18 @@
 }
 header {
 	text-align: center;
-    height: 175px;
+    height: 200pxpx;
 	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     margin-bottom: 25px;
+	font-family: Tangerine;
+	font-size: 2em;
+	
 }
 header p {
 	color: black;
 	padding: 10px;
+	font-weight: 900;
+	margin-bottom: 2em;
 }
 body {
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
